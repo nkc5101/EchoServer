@@ -23,7 +23,7 @@ public class EchoServer {
                 Thread t = new Thread(c);
                 t.start();
 
-                System.out.println("Connected to client");
+                System.out.println("Connected to client " + clientID);
 
             }
 
